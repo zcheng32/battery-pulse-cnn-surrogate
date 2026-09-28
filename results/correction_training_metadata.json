@@ -1,0 +1,45 @@
+{
+  "experiment": "spm-online-voltage-correction-v1",
+  "correction_config_id": "9ed2886cf92ace88e7284bb3f3683c4a1ab62d86e062bc5fc1d33614fcba93e1",
+  "trained_utc": "2026-09-28T01:25:32.492930+00:00",
+  "base_cnn_seed": 42,
+  "training_examples": 1509,
+  "validation_examples": 365,
+  "test_examples_reserved": 376,
+  "pca_components": 16,
+  "pca_explained_variance": 0.9999022101705193,
+  "selection": "PCA, scaling, Ridge alpha, and MLP checkpoints use train/validation sequences only.",
+  "test_data_used_for_selection": false,
+  "training_wall_s": 48.856137708062306,
+  "models": [
+    {
+      "method": "Linear corrector",
+      "seed": "deterministic",
+      "best_epoch": "",
+      "validation_posterior_state_rmse": 0.00046967296152002536,
+      "ridge_alpha": 0.0001,
+      "training_wall_s": 0.0
+    },
+    {
+      "method": "Nonlinear corrector",
+      "seed": 42,
+      "best_epoch": 1140,
+      "validation_posterior_state_rmse": 0.0009727455565925758,
+      "training_wall_s": 22.14270154107362
+    },
+    {
+      "method": "Nonlinear corrector",
+      "seed": 123,
+      "best_epoch": 380,
+      "validation_posterior_state_rmse": 0.0009451402261768467,
+      "training_wall_s": 10.075863291043788
+    },
+    {
+      "method": "Nonlinear corrector",
+      "seed": 2026,
+      "best_epoch": 690,
+      "validation_posterior_state_rmse": 0.001023202863148171,
+      "training_wall_s": 15.289024207973853
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "rule": "At zero measurement noise, choose the primary-corrector test sequence nearest the median open-loop voltage MAE among sequences with at least eight complete pulses; ties by sequence ID.",
+  "primary_method_selected_by_validation": "Linear corrector",
+  "sequence_id": "H039_S1",
+  "complete_steps": 12,
+  "open_loop_voltage_mae_mV": 30.872581736168403
+}

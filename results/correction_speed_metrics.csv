@@ -1,0 +1,3 @@
+method,median_latency_ms,p95_latency_ms,repeats
+Linear correction only,0.059333,0.0705441,2000
+Nonlinear correction only seed 42,0.058832999999999996,0.07059229999999998,2000

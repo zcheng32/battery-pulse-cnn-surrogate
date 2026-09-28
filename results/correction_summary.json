@@ -1,0 +1,33 @@
+{
+  "experiment": "spm-online-voltage-correction-v1",
+  "correction_config_id": "9ed2886cf92ace88e7284bb3f3683c4a1ab62d86e062bc5fc1d33614fcba93e1",
+  "evaluated_utc": "2026-09-28T01:27:14.521512+00:00",
+  "test_sequences": 36,
+  "test_complete_steps": 376,
+  "test_physical_cutoffs": 7,
+  "primary_method_selected_by_validation": "Linear corrector",
+  "clean_open_loop_voltage_mae_mV": 38.75880476288104,
+  "clean_corrected_voltage_mae_mV": 27.05538230552241,
+  "clean_voltage_mae_reduction_percent": 30.195519518617598,
+  "clean_open_loop_posterior_state_rmse": 0.00736978589969256,
+  "clean_corrected_posterior_state_rmse": 0.0013971796811614139,
+  "noise_5mV_corrected_voltage_mae_mV": 27.077878611246625,
+  "clean_open_loop_false_feasible": 4,
+  "clean_corrected_false_feasible": 3,
+  "scope": "The exact simulated state is supplied only at rollout initialization. After that, corrected rollouts use CNN predictions, applied current, and the voltage measured during each completed pulse. This experiment studies online drift correction, not arbitrary-time state initialization.",
+  "test_data_used_for_selection": false,
+  "correction_latency": [
+    {
+      "method": "Linear correction only",
+      "median_latency_ms": 0.059333,
+      "p95_latency_ms": 0.0705441,
+      "repeats": 2000
+    },
+    {
+      "method": "Nonlinear correction only seed 42",
+      "median_latency_ms": 0.058832999999999996,
+      "p95_latency_ms": 0.07059229999999998,
+      "repeats": 2000
+    }
+  ]
+}

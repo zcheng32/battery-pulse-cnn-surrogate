@@ -1,0 +1,17 @@
+{
+  "experiment": "spm-online-voltage-correction-v1",
+  "correction_config_id": "9ed2886cf92ace88e7284bb3f3683c4a1ab62d86e062bc5fc1d33614fcba93e1",
+  "generated_utc": "2026-09-28T01:21:43.988081+00:00",
+  "sequences": 216,
+  "sequence_split_counts": {
+    "train": 144,
+    "val": 36,
+    "test": 36
+  },
+  "attempted_steps": 2296,
+  "complete_steps": 2250,
+  "physical_cutoffs": 46,
+  "solver_failures": 0,
+  "generation_wall_s": 53.334088125033304,
+  "scope": "The exact simulated state is supplied only at rollout initialization. After that, corrected rollouts use CNN predictions, applied current, and the voltage measured during each completed pulse. This experiment studies online drift correction, not arbitrary-time state initialization."
+}

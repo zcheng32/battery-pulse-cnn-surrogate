@@ -1,0 +1,57 @@
+{
+  "experiment": "spm-10s-transition-cnn-v1",
+  "config_id": "a2fcd0396e999c33856bf81be6c128f784eacb59769d6600a1cce1e3a6e9184c",
+  "evaluated_utc": "2026-09-28T00:06:49.021224+00:00",
+  "test_histories": 12,
+  "test_complete_pulses": 89,
+  "test_physical_cutoffs": 7,
+  "primary_cnn": {
+    "method": "CNN",
+    "seed": 42,
+    "complete_pulses": 89,
+    "cutoff_pulses": 7,
+    "voltage_mae_mV": 9.317775561107311,
+    "voltage_max_abs_mV": 73.80269765708024,
+    "voltage_endpoint_mae_mV": 10.379863565621804,
+    "minimum_voltage_mae_mV": 13.358797183653937,
+    "maximum_overprediction_mV": 26.35643250888009,
+    "state_rmse_fraction": 0.00029838116778092177,
+    "state_max_abs_fraction": 0.009129071098991692,
+    "cutoff_balanced_accuracy": 1.0,
+    "cutoff_true_positive": 7,
+    "cutoff_true_negative": 89,
+    "false_feasible": 0,
+    "false_infeasible": 0,
+    "true_cutoff_count": 7,
+    "true_complete_count": 89,
+    "cutoff_threshold": 0.5
+  },
+  "cnn_seed_voltage_mae_mV_mean": 8.402228273314458,
+  "cnn_seed_voltage_mae_mV_std": 0.7791489973339342,
+  "primary_cnn_rollout_final_step_voltage_mae_mV": 20.85482163372161,
+  "speed": [
+    {
+      "method": "CNN seed 42",
+      "median_latency_ms": 0.10675,
+      "p95_latency_ms": 0.12329615,
+      "repeats": 2000,
+      "speedup_vs_pybamm_median": 14.981658435676817
+    },
+    {
+      "method": "Ridge",
+      "median_latency_ms": 0.086542,
+      "p95_latency_ms": 0.10138124999999999,
+      "repeats": 2000,
+      "speedup_vs_pybamm_median": 18.47995237004576
+    },
+    {
+      "method": "PyBaMM IDAKLU",
+      "median_latency_ms": 1.5992920380085,
+      "p95_latency_ms": 1.93473310209808,
+      "repeats": 89,
+      "speedup_vs_pybamm_median": 1.0
+    }
+  ],
+  "timing_scope": "Proxy timings include input normalization, inference, and output de-normalization for one sample. PyBaMM timings are solver.step only for complete test pulses; model build and history generation are excluded.",
+  "test_data_used_for_selection": false
+}

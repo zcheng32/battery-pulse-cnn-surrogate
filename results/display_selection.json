@@ -1,0 +1,15 @@
+{
+  "rule": "Primary seed: test pulse nearest to median CNN curve MAE and test pulse with largest CNN curve MAE; ties by history ID and current.",
+  "primary_seed": 42,
+  "typical_branch_id": "H012_I12",
+  "typical_curve_mae_mV": 7.8302225042394324,
+  "worst_branch_id": "H069_I0.5",
+  "worst_curve_mae_mV": 38.5007500002437,
+  "cutoff_boundary_history_id": "H002",
+  "interactive_history_ids": [
+    "H012",
+    "H069",
+    "H002"
+  ],
+  "interactive_rule": "All candidate currents for the typical, worst-error, and most-cutoff test histories; ties are resolved by history ID."
+}

@@ -1,0 +1,5 @@
+method,seed,best_epoch,validation_posterior_state_rmse,ridge_alpha,training_wall_s
+Linear corrector,deterministic,,0.00046967296152002536,0.0001,0.0
+Nonlinear corrector,42,1140,0.0009727455565925758,,22.14270154107362
+Nonlinear corrector,123,380,0.0009451402261768467,,10.075863291043788
+Nonlinear corrector,2026,690,0.001023202863148171,,15.289024207973853

@@ -1,0 +1,50 @@
+{
+  "experiment": "spm-10s-transition-cnn-v1",
+  "config_id": "a2fcd0396e999c33856bf81be6c128f784eacb59769d6600a1cce1e3a6e9184c",
+  "trained_utc": "2026-09-28T00:04:06.735953+00:00",
+  "selection": "Hyperparameters, epochs, and cutoff thresholds use validation data only.",
+  "test_data_used_for_selection": false,
+  "summaries": [
+    {
+      "method": "CNN",
+      "seed": 42,
+      "best_epoch": 710,
+      "validation_voltage_mae_mV": 7.298292608185132,
+      "cutoff_threshold": 0.5,
+      "validation_cutoff_balanced_accuracy": 1.0,
+      "validation_false_feasible": 0,
+      "training_wall_s": 37.25107316602953
+    },
+    {
+      "method": "CNN",
+      "seed": 123,
+      "best_epoch": 1130,
+      "validation_voltage_mae_mV": 6.923975692033379,
+      "cutoff_threshold": 0.5,
+      "validation_cutoff_balanced_accuracy": 1.0,
+      "validation_false_feasible": 0,
+      "training_wall_s": 52.65126608288847
+    },
+    {
+      "method": "CNN",
+      "seed": 2026,
+      "best_epoch": 1090,
+      "validation_voltage_mae_mV": 6.714351220146746,
+      "cutoff_threshold": 0.5,
+      "validation_cutoff_balanced_accuracy": 1.0,
+      "validation_false_feasible": 0,
+      "training_wall_s": 51.230149374809116
+    },
+    {
+      "method": "Ridge",
+      "seed": "deterministic",
+      "best_epoch": "",
+      "validation_voltage_mae_mV": 89.49336875256432,
+      "cutoff_threshold": 0.75,
+      "validation_cutoff_balanced_accuracy": 1.0,
+      "validation_false_feasible": 0,
+      "ridge_alpha": 1.0,
+      "training_wall_s": 0.04654162493534386
+    }
+  ]
+}

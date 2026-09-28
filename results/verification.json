@@ -1,0 +1,65 @@
+{
+  "verified_utc": "2026-09-28T07:52:07.251073+00:00",
+  "config_id": "a2fcd0396e999c33856bf81be6c128f784eacb59769d6600a1cce1e3a6e9184c",
+  "checks_passed": 37,
+  "history_split_counts": {
+    "train": 48,
+    "val": 12,
+    "test": 12
+  },
+  "branch_status_counts": {
+    "test/complete": 89,
+    "test/physical_cutoff": 7,
+    "train/complete": 359,
+    "train/physical_cutoff": 25,
+    "val/complete": 88,
+    "val/physical_cutoff": 8
+  },
+  "primary_voltage_mae_mV": 9.317775561107313,
+  "primary_false_feasible": 0,
+  "tracked_file_count": 53,
+  "tracked_total_bytes": 2244922,
+  "largest_tracked_files": [
+    {
+      "path": "figures/online_correction.png",
+      "bytes": 644872
+    },
+    {
+      "path": "figures/overview.png",
+      "bytes": 444875
+    },
+    {
+      "path": "results/correction_display_predictions.csv",
+      "bytes": 247699
+    },
+    {
+      "path": "figures/interactive_test_browser.html",
+      "bytes": 167039
+    },
+    {
+      "path": "results/interactive_predictions.csv",
+      "bytes": 121477
+    },
+    {
+      "path": "figures/online_correction_browser.html",
+      "bytes": 91796
+    },
+    {
+      "path": "results/dataset_manifest.csv",
+      "bytes": 79270
+    },
+    {
+      "path": "results/test_pulse_metrics.csv",
+      "bytes": 70141
+    },
+    {
+      "path": "results/correction_sequence_metrics.csv",
+      "bytes": 57663
+    },
+    {
+      "path": "results/correction_sequence_manifest.csv",
+      "bytes": 40683
+    }
+  ],
+  "status": "pass"
+}

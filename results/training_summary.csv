@@ -1,0 +1,5 @@
+method,seed,best_epoch,validation_voltage_mae_mV,cutoff_threshold,validation_cutoff_balanced_accuracy,validation_false_feasible,training_wall_s,ridge_alpha
+CNN,42,710,7.298292608185132,0.5,1.0,0,37.25107316602953,
+CNN,123,1130,6.923975692033379,0.5,1.0,0,52.65126608288847,
+CNN,2026,1090,6.714351220146746,0.5,1.0,0,51.230149374809116,
+Ridge,deterministic,,89.49336875256432,0.75,1.0,0,0.04654162493534386,1.0
